@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Test Django</title>
+<style type="css">
+    body{
+        font-family: 'Georgia', 'Times New Roman', 'Times, serif';
+    }
+</style>
+</head>
+
+<body>
+<center><H1>Demo for retrieving Image, Video, Audio </H1></center>
+<br>
+<div>
+<img src="{{img1}}" width="500px" height="250px">
+</div><br>
+<div>
+<video width="500px" height="250px" controls>
+    <source src="{{vid1}}" type="video/mp4">
+  </video>
+  </div>
+
+  <audio controls>
+    <source src="{{aud1}}" type="audio/ogg">
+  </audio>
+</body>
+</html>
